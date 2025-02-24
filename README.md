@@ -1,83 +1,84 @@
 # Ejercicios de Programación en Python
 
-Este repositorio contiene una serie de ejercicios de programación en Python organizados en carpetas. Cada carpeta `exercise-XX` contiene:
+Este repositorio contiene una serie de ejercicios de programación en Python organizados en carpetas. Cada carpeta `EjercicioXX` contiene:
 
-- Un archivo `exerciseXX.md` con la descripción del ejercicio.
-- Un archivo `exerciseXX.py` con la implementación en Python del ejercicio.
+- Un archivo `pseudocodigo.md` con la descripción del ejercicio.
+- Un archivo `EjercicioXX.py` con la implementación en Python del ejercicio.
 
 ## Lista de Ejercicios de Programación en Python
 
-📂 Carpeta: `exercise-0`
+📂 Carpeta: `EjercicioI`
 
-### Ejercicio 0
-### 📝 Ejercicio 0 - Adivina el Número
-Diseñe e implemente un programa que genere un número aleatorio entre 1 y 10 y le pida a un usuario que lo adivine. El programa se ejecuta hasta que el usuario lo adivine, mostrando el número de intentos realizados. Cuando el número es adivinado, muestra un mensaje indicando que ganó el juego y la cantidad de intentos.
-- **Carpeta:** `exercise-0`
-- **Descripción:** [`exercise0.md`](exercise-0/exercise0.md)
-- **Código:** [`exercise0.py`](exercise-0/exercise0.py)
+### Ejercicio I
+Este pseudocódigo describe los pasos necesarios para calcular el promedio de tres notas ingresadas por el usuario.
+- Carpeta: `EjercicioI`
+- Descripción: [`pseudocodigo.md`](EjercicioI/pseudocodigo.md)
+- Código: [`promedio.py`](EjercicioI/promedio.py)
 
-📂 Carpeta: `exercise-1`
+📂 Carpeta: `EjercicioII`
 
-### Ejercicio 1
-### 🔢 Ejercicio 1 - Número Par o Impar
-Diseñe e implemente un programa que solicite un número al usuario e indique si es par o impar. El programa valida que el número ingresado sea mayor que 0; en caso contrario, solicita el número nuevamente.
-- **Carpeta:** `exercise-1`
-- **Descripción:** [`exercise1.md`](exercise-1/exercise1.md)
-- **Código:** [`exercise1.py`](exercise-1/exercise1.py)
+### Ejercicio II
+Desarrolle un programa en Python que permita calcular el índice de masa corporal de una persona (los datos deben ser ingresados por el usuario). Desarrolle el pseudocódigo, el diagrama de flujo y el código.
+- Carpeta: `EjercicioII`
+- Descripción: [`pseudocodigo.md`](EjercicioII/pseudocodigo.md)
+- Código: [`masa_corporar.py`](EjercicioII/masa_corporar.py)
 
-📂 Carpeta: `exercise-2`
+📂 Carpeta: `EjercicioIII`
 
-### Ejercicio 2
-### 🔎 Ejercicio 2 - Contar Vocales en una Frase
-Diseñe e implemente un programa que reciba una oración (string) y determine cuántas veces aparece cada vocal en ella.
-- **Carpeta:** `exercise-2`
-- **Descripción:** [`exercise2.md`](exercise-2/exercise2.md)
-- **Código:** [`exercise2.py`](exercise-2/exercise2.py)
+### Ejercicio III
+Desarrolle un programa en Python que permita calcular el salario neto de un trabajador ingresando el número de horas trabajadas, la tarifa horaria y la tasa de impuestos. Desarrolle el pseudocódigo, el diagrama de flujo y el código.
+- Carpeta: `EjercicioIII`
+- Descripción: [`pseudocodigo.md`](EjercicioIII/pseudocodigo.md)
+- Código: [`salario.py`](EjercicioIII/salario.py)
 
-📂 Carpeta: `exercise-3`
+📂 Carpeta: `EjercicioIV`
 
-### Ejercicio 3
-### ➗ Ejercicio 3 - Factorial de un Número
-Diseñe e implemente un programa que calcule el factorial de un número entero y positivo. Si el número no cumple estas condiciones, el programa lo indica.
-- **Carpeta:** `exercise-3`
-- **Descripción:** [`exercise3.md`](exercise-3/exercise3.md)
-- **Código:** [`exercise3.py`](exercise-3/exercise3.py)
+### Ejercicio IV
+Desarrolle un programa en Python que permita calcular el volumen de un cilindro (los datos deben ser ingresados por el usuario). 
+Desarrolle el pseudocódigo, el diagrama de flujo y el código.
+- Carpeta: `EjercicioVI`
+- Descripción: [`pseudocodigo.md`](EjercicioIV/pseudocodigo.md)
+- Código: [`cilindro.py`](EjercicioIV/cilindro.py)
 
-📂 Carpeta: `exercise-4`
+📂 Carpeta: `EjercicioV`
 
-### Ejercicio 4
-### 🚀 Ejercicio 4 - Número Mayor entre 0 y 100
-Diseñe e implemente un programa que cree una lista de 10 números enteros aleatorios entre 0 y 100, determine el número mayor y muestre su posición (índice) en la lista.
-- **Carpeta:** `exercise-4`
-- **Descripción:** [`exercise4.md`](exercise-4/exercise4.md)
-- **Código:** [`exercise4.py`](exercise-4/exercise4.py)
+### Ejercicio V
+Este pseudocódigo describe los pasos necesarios para implementar un programa que calcula un score para mostrar una nota dependiendo del valor del score.
+- Carpeta: `EjercicioV`
+- Descripción: [`pseudocodigo.md`](EjercicioV/pseudocodigo.md)
+- Código: [`scores.py`](EjercicioV/scores.py)
 
-📂 Carpeta: `exercise-5`
+📂 Carpeta: `EjercicioVI`
 
-### Ejercicio 5
-### 🌀 Ejercicio 5 - Serie de Fibonacci
-Diseñe e implemente un programa que imprima los primeros n términos de la serie de Fibonacci. El valor de n debe ser solicitado al usuario y ser mayor o igual que 1.
-- **Carpeta:** `exercise-5`
-- **Descripción:** [`exercise5.md`](exercise-5/exercise5.md)
-- **Código:** [`exercise5.py`](exercise-5/exercise5.py)
+### Ejercicio VI
+Este pseudocódigo describe los pasos necesarios para implementar un programa que genera un número aleatorio entre 1 y 10, determina si es par o impar, permite al usuario intentar adivinar el número y evalúa si lo adivinó, mostrando el número correcto en caso de no adivinarlo.
+- Carpeta: `EjercicioVI`
+- Descripción: [`pseudocodigo.md`](EjercicioVI/pseudocodigo.md)
+- Código: [`ramdon.py`](EjercicioVI/ramdon.py)
 
-📂 Carpeta: `exercise-6`
+📂 Carpeta: `EjercicioVI`
 
-### Ejercicio 6
-### ➕ Ejercicio 6 - Suma de Rango de Números
-Diseñe e implemente un programa que solicite dos números enteros (n y m) y calcule la suma de todos los números enteros positivos comprendidos entre ellos (incluyendo ambos extremos). Se valida que ambos números sean positivos y que n sea menor que m.
-- **Carpeta:** `exercise-6`
-- **Descripción:** [`exercise6.md`](exercise-6/exercise6.md)
-- **Código:** [`exercise6.py`](exercise-6/exercise6.py)
+### Ejercicio VII
+Este ejercicio consiste en implementar un programa en Python que permite al usuario generar dos vectores de tamaño especificado. Cada elemento de los vectores es un número aleatorio entre 1 y 100. El programa suma los vectores y muestra los vectores generados junto con el resultado de su suma.
+- Carpeta: `EjercicioVII`
+- Descripción: [`pseudocodigo.md`](EjercicioVII/pseudocodigo.md)
+- Código: [`vectores.py`](EjercicioVII/vectores.py)
 
-📂 Carpeta: `exercise-7`
+📂 Carpeta: `EjercicioVI`
 
-### Ejercicio 7
-### 💵 Ejercicio 7 - Desglose de Billetes
-Diseñe e implemente un programa que proporcione el desglose de una cantidad entera de pesos en el número mínimo de billetes para las denominaciones: 100000, 50000, 20000, 10000, 5000 y 2000. Se solicita al usuario una cantidad entera mayor que 2000 y se muestra el desglose correspondiente.
-- **Carpeta:** `exercise-7`
-- **Descripción:** [`exercise7.md`](exercise-7/exercise7.md)
-- **Código:** [`exercise7.py`](exercise-7/exercise7.py)
+### Ejercicio VIII
+Este ejercicio consiste en implementar un programa en Python que permite al usuario generar una matriz de tamaño `nxm`. Cada elemento de la matriz es un número aleatorio entre un valor mínimo y un valor máximo especificados por el usuario. El programa muestra la matriz generada.
+- Carpeta: `EjercicioVIII`
+- Descripción: [`pseudocodigo.md`](EjercicioVIII/pseudocodigo.md)
+- Código: [`matriz.py`](EjercicioVIII/matriz.py)
+
+📂 Carpeta: `EjercicioVI`
+
+### Ejercicio IX
+Este programa en Python permite al usuario ingresar dos matrices cuadradas de tamaño nxn. El programa realiza la suma de las dos matrices elemento por elemento y muestra la matriz resultante. No se utilizan paquetes especializados de Python para realizar la suma de matrices.
+- Carpeta: `EjercicioIX`
+- Descripción: [`pseudocodigo.md`](EjercicioIX/pseudocodigo.md)
+- Código: [`suma_matriz.py`](EjercicioIX/suma_matriz.py)
 
 ## Autor
 📌 **By:** Deyton Riascos Ortiz
